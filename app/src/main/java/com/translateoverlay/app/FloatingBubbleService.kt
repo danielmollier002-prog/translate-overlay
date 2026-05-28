@@ -272,7 +272,7 @@ class FloatingBubbleService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("Translate Overlay Active")
             .setContentText("Tap the bubble to translate Chinese text")
-            .setSmallIcon(android.R.drawable.ic_menu_translate)
+            .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setContentIntent(openPending)
             .addAction(android.R.drawable.ic_delete, "Stop", stopPending)
             .build()
