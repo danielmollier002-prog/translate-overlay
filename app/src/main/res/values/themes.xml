@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TranslateOverlay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#3a3aff</item>
+        <item name="colorPrimaryVariant">#1a1a99</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="android:windowBackground">#1a1a2e</item>
+    </style>
+</resources>

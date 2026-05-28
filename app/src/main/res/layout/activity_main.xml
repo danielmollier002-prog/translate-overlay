@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌐 Translate Overlay"
+        android:textSize="26sp"
+        android:textColor="#e0e0ff"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floating Chinese translator — no ads"
+        android:textSize="14sp"
+        android:textColor="#9090bb"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvPermissionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking permissions..."
+        android:textSize="15sp"
+        android:textColor="#ffcc44"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnOverlayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant Overlay Permission"
+        android:backgroundTint="#3a3aff"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnStartBubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶ Start Floating Bubble"
+        android:backgroundTint="#22cc66"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnStopBubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="■ Stop Bubble"
+        android:backgroundTint="#cc3333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nHow to use:\n1. Grant overlay permission\n2. Start bubble, go to your game\n3. Tap the 🌐 bubble to open translator\n4. Tap Scan to detect Chinese text\n   or type/paste text manually"
+        android:textSize="13sp"
+        android:textColor="#7070aa"
+        android:layout_marginTop="24dp"
+        android:lineSpacingMultiplier="1.4"/>
+
+</LinearLayout>
